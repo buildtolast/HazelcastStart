@@ -50,8 +50,14 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <scope>runtime</scope>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>com.oracle.jdbc</groupId>-->
+            <!--<artifactId>ucp</artifactId>-->
+            <!--<version>12.2.0.1</version>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -83,5 +89,23 @@
         </plugins>
     </build>
 
+    <repositories>
+    </repositories>
+
+    <pluginRepositories>
+    </pluginRepositories>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>Arpita-Chiya-releases</name>
+            <url>http://localhost:8081/artifactory/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Arpita-Chiya-snapshots</name>
+            <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
