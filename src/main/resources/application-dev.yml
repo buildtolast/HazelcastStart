@@ -2,7 +2,7 @@
 server:
   port: 9000
 database:
-  connectionString: jdbc:h2:c:/arnab/h2data
+  connectionString: jdbc:h2:c:/arnab/h2database/taskdatabase
   user: sa
   password: sa
   sqlfile: database.sql
