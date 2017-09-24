@@ -1,9 +1,0 @@
-
-server:
-    port: 9000
-
-spring:
-  database:
-    connectionString: jdbc:h2:c:/arnab/h2data
-    user: sa
-    password: sa

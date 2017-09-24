@@ -8,13 +8,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DatabaseConfig {
 
-    @Value("${spring.database.connectionString}")
+    @Value("${database.connectionString}")
     private String connectionString;
 
-    @Value("${spring.database.user}")
+    @Value("${database.user}")
     private String user;
 
-    @Value("${spring.database.password}")
+    @Value("${database.password}")
     private String password;
 
     @Bean
