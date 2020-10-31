@@ -1,6 +1,11 @@
 
+management:
+  server:
+    port: 9001
+    address: 127.0.0.1
 server:
   port: 9000
+
 database:
   connectionString: jdbc:h2:mem:test
   user: sa

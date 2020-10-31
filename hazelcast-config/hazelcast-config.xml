@@ -3,7 +3,7 @@
                                http://www.hazelcast.com/schema/config/hazelcast-config-3.8.xsd"
            xmlns="http://www.hazelcast.com/schema/config">
 
-    <management-center enabled="true" update-interval="3">
+    <management-center>
         http://localhost:8080/mancenter
     </management-center>
 
